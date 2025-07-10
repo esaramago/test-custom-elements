@@ -5,7 +5,7 @@ class Card extends HTMLElement {
 
     const author = this.getAttribute('author')
 
-    const style = `
+    const style = /* css */`
       :host {
         display: block;
         border: 1px solid #ccc;
@@ -26,7 +26,7 @@ class Card extends HTMLElement {
       }
     `
 
-    const template = `
+    const template = /* html */`
       <div class="card-title" part="card-header">
         <slot name="title"></slot>
       </div>
