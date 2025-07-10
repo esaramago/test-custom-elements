@@ -4,6 +4,7 @@
   "description": "Testing the criation of custom elements",
   "main": "index.js",
   "scripts": {
+    "start": "pnpm vite",
     "dev": "pnpm vite"
   },
   "author": "Emanuel Saramago",

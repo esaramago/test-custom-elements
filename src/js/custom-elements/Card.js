@@ -33,6 +33,8 @@ class Card extends HTMLElement {
       <div class="card-content" part="card-body">
         <slot></slot>
         <p class="card-author" part="card-author">${author ? `Author: ${author}` : 'No author specified'}</p>
+
+        <a href="emanuelsaramago.com">Clique aqui</a>
       </div>
     `
 
@@ -45,4 +47,4 @@ class Card extends HTMLElement {
 
 }
 
-customElements.define('ta-card', Card)
+customElements.define('es-card', Card)
